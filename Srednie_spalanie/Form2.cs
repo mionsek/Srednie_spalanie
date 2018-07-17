@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace Srednie_spalanie
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
-        }
-
-        private void rej1_button_Click(object sender, EventArgs e)
-        {
-            Form2 myForm = new Form2();
-            this.Hide();
-            myForm.ShowDialog();
-            this.Close();
         }
     }
 }
