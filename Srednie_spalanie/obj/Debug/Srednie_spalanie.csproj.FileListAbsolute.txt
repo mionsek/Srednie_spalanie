@@ -8,3 +8,4 @@ C:\Users\Dawid\Documents\GitHub\Srednie_spalanie\Srednie_spalanie\obj\Debug\Sred
 C:\Users\Dawid\Documents\GitHub\Srednie_spalanie\Srednie_spalanie\obj\Debug\Srednie_spalanie.csproj.CoreCompileInputs.cache
 C:\Users\Dawid\Documents\GitHub\Srednie_spalanie\Srednie_spalanie\obj\Debug\Srednie_spalanie.exe
 C:\Users\Dawid\Documents\GitHub\Srednie_spalanie\Srednie_spalanie\obj\Debug\Srednie_spalanie.pdb
+C:\Users\Dawid\Documents\GitHub\Srednie_spalanie\Srednie_spalanie\obj\Debug\Srednie_spalanie.Form2.resources
