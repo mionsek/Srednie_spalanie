@@ -12,9 +12,20 @@ namespace Srednie_spalanie
 {
     public partial class Form1 : Form
     {
+        public int _liczba_samochodow;
+        public Samochod[] _samochody;
+
         public Form1()
         {
-            InitializeComponent();
+            InitializeComponent(_liczba_samochodow, _samochody);
+        }
+
+        public Form1(int liczba_samochodow, Samochod[] samochody)
+        {
+            this._liczba_samochodow = liczba_samochodow;
+            this._samochody = samochody;
+
+            InitializeComponent(_liczba_samochodow, _samochody);
         }
 
         private void rej1_button_Click(object sender, EventArgs e)

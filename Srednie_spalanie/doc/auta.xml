@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<auta>
+  <!--1-->
+  <auto>
+    <nr_rej>GWE30627</nr_rej>
+    <nazwa>SCANIA - NIEBIESKA</nazwa>
+  </auto>
+  <!--2-->
+  <auto>
+    <nr_rej>GWE59743</nr_rej>
+    <nazwa>SCANIA - WYWROTKA</nazwa>
+  </auto>
+  <!--3-->
+  <auto>
+    <nr_rej>GWE53U6</nr_rej>
+    <nazwa>SCANIA - HDS</nazwa>
+  </auto>
+  <!--4-->
+  <auto>
+    <nr_rej>GWE37851</nr_rej>
+    <nazwa>MERCERES - SPRINTER</nazwa>
+  </auto>  
+  <!--5-->
+  <auto>
+    <nr_rej>GWE2369</nr_rej>
+    <nazwa>MERCEDES - BABCIA</nazwa>
+  </auto>
+  <!--6-->
+  <auto>
+    <nr_rej>GWE20041</nr_rej>
+    <nazwa>VOLVO - HAKOWIEC</nazwa>
+  </auto>
+  <!--7-->
+  <auto>
+    <nr_rej>GWE7608C</nr_rej>
+    <nazwa>IVECO</nazwa>
+  </auto>
+  <!--8-->
+  <auto>
+    <nr_rej>GWE78X3</nr_rej>
+    <nazwa>SCANIA - HAKOWIEC BIALY</nazwa>
+  </auto>
+  <!--9-->
+  <auto>
+    <nr_rej>GWE69493</nr_rej>
+    <nazwa>SCANIA - SMIECIARKA</nazwa>
+  </auto>
+  <!--10-->
+  <auto>
+    <nr_rej>GWE9194E</nr_rej>
+    <nazwa>MAN - SMIECIARKA BIALA</nazwa>
+  </auto>
+  <!--11-->
+  <auto>
+    <nr_rej>GWE92962</nr_rej>
+    <nazwa>MAN - WINDA</nazwa>
+  </auto>
+  <!--12-->
+  <auto>
+    <nr_rej>GWE69828</nr_rej>
+    <nazwa>MAN - HAKOWIEC DUZY</nazwa>
+  </auto>
+  <!--13-->
+  <auto>
+    <nr_rej>GWE60272</nr_rej>
+    <nazwa>CITROEN - LODOWKA</nazwa>
+  </auto>
+
+  <!--14-->
+  <auto>
+    <nr_rej>GWE29762</nr_rej>
+    <nazwa>VOLKSWAGEN T4</nazwa>
+  </auto>
+
+  <!--15-->
+  <auto>
+    <nr_rej>GWE5FP2</nr_rej>
+    <nazwa>JOHN DEERE - TRAKTOR</nazwa>
+  </auto>
+  <!--16-->
+  <auto>
+    <nr_rej>GWE9N95</nr_rej>
+    <nazwa>SCANIA - HAKOWIEC ZIELONY</nazwa>
+  </auto>
+  <!--17-->
+  <auto>
+    <nr_rej>GWE4711E</nr_rej>
+    <nazwa>MAN - SIECIARKA MALA</nazwa>
+  </auto>
+  <!--18-->
+  <auto>
+    <nr_rej>VOLVO-BL</nr_rej>
+    <nazwa>KOPARKA - STARA</nazwa>
+  </auto>
+  <!--19-->
+  <auto>
+    <nr_rej>VOLVO-BL71</nr_rej>
+    <nazwa>KOPARKA - NOWA</nazwa>
+  </auto>
+
+  <!--20-->
+  <auto>
+    <nr_rej>GWE43XW</nr_rej>
+    <nazwa>SCANIA - MALA WYWROTKA</nazwa>
+  </auto>
+
+</auta>

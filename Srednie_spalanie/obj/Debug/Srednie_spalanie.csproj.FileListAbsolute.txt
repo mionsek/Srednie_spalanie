@@ -9,3 +9,14 @@ C:\Users\Dawid\Documents\GitHub\Srednie_spalanie\Srednie_spalanie\obj\Debug\Sred
 C:\Users\Dawid\Documents\GitHub\Srednie_spalanie\Srednie_spalanie\obj\Debug\Srednie_spalanie.exe
 C:\Users\Dawid\Documents\GitHub\Srednie_spalanie\Srednie_spalanie\obj\Debug\Srednie_spalanie.pdb
 C:\Users\Dawid\Documents\GitHub\Srednie_spalanie\Srednie_spalanie\obj\Debug\Srednie_spalanie.Form2.resources
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\bin\Debug\Srednie_spalanie.exe.config
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\bin\Debug\Srednie_spalanie.exe
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\bin\Debug\Srednie_spalanie.pdb
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\obj\Debug\Srednie_spalanie.csprojResolveAssemblyReference.cache
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\obj\Debug\Srednie_spalanie.Form1.resources
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\obj\Debug\Srednie_spalanie.Form2.resources
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\obj\Debug\Srednie_spalanie.Properties.Resources.resources
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\obj\Debug\Srednie_spalanie.csproj.GenerateResource.Cache
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\obj\Debug\Srednie_spalanie.csproj.CoreCompileInputs.cache
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\obj\Debug\Srednie_spalanie.exe
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\obj\Debug\Srednie_spalanie.pdb

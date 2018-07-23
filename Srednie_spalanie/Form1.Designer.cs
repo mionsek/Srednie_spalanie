@@ -2,6 +2,9 @@
 {
     partial class Form1
     {
+        private int margin_X = 5;
+        
+       
         /// <summary>
         /// Wymagana zmienna projektanta.
         /// </summary>
@@ -26,7 +29,7 @@
         /// Wymagana metoda obsługi projektanta — nie należy modyfikować 
         /// zawartość tej metody z edytorem kodu.
         /// </summary>
-        private void InitializeComponent()
+        private void InitializeComponent(int _liczba_samochodow, Samochod[] _samochody)
         {
             this.label1 = new System.Windows.Forms.Label();
             this.rej1_button = new System.Windows.Forms.Button();
@@ -48,6 +51,7 @@
             // 
             // rej1_button
             // 
+            this.rej1_button.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.rej1_button.AutoSize = true;
             this.rej1_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F);
             this.rej1_button.Location = new System.Drawing.Point(140, 71);
