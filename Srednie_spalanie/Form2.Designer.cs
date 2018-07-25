@@ -26,7 +26,7 @@
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent()
+        private void InitializeComponent(Samochod samochod)
         {
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
@@ -54,7 +54,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(624, 38);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Samochód: ";
+            this.label1.Text = "Samochód: " + samochod.Nazwa;
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
@@ -84,6 +84,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(247, 29);
             this.textBox1.TabIndex = 4;
+
             // 
             // Form2
             // 
@@ -97,7 +98,7 @@
             this.Controls.Add(this.dateTimePicker1);
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Form2";
+            this.Text = samochod.Nr_rej;
             this.ResumeLayout(false);
             this.PerformLayout();
 

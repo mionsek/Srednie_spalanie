@@ -14,6 +14,7 @@ namespace Srednie_spalanie
     {
         public int _liczba_samochodow;
         public Samochod[] _samochody;
+        public Samochod wybrany_samochod;
 
         public Form1()
         {
@@ -22,19 +23,11 @@ namespace Srednie_spalanie
 
         public Form1(int liczba_samochodow, Samochod[] samochody)
         {
-            this._liczba_samochodow = liczba_samochodow;
+            this._liczba_samochodow = samochody.Length;
             this._samochody = samochody;
 
             InitializeComponent(_liczba_samochodow, _samochody);
             CreateDynamicButtons();
-        }
-
-        private void rej1_button_Click(object sender, EventArgs e)
-        {
-            Form2 myForm = new Form2();
-            this.Hide();
-            myForm.ShowDialog();
-            this.Close();
         }
 
         private void CreateDynamicButtons()
@@ -62,10 +55,19 @@ namespace Srednie_spalanie
                 dynamicButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F);
                 dynamicButton.UseVisualStyleBackColor = true;
 
+                dynamicButton.Click += new EventHandler(DynamicButton_OnClick);
+                wybrany_samochod = _samochody[i];
+
                 Controls.Add(dynamicButton);
                 tmp_cnt += 1;
             }
         }
-
+        private void DynamicButton_OnClick(object sender, EventArgs e)
+        {
+            Form2 myForm = new Form2(wybrany_samochod);
+            this.Hide();
+            myForm.ShowDialog();
+            this.Close();
+        }
     }
 }
