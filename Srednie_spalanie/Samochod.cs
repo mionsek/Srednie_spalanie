@@ -17,6 +17,15 @@ public class Samochod
 
     public string Nazwa { get; set; }
     public string Nr_rej { get; set; }
-
     public string Kierowca { get; set; }
+
+    public int StanLicznika { get; set; }
+
+    public int IloscLitrow { get; set; }
+
+    public double Sr_spalanie { get; set; }
+    public int Km_przejechane { get; set; }
+
+    public int Dzien { get; set; }
+    public int Przebieg { get; set; }
 }

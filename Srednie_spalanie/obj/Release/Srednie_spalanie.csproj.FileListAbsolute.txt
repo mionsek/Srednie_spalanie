@@ -1,0 +1,16 @@
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\bin\Release\Srednie_spalanie.exe.config
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\bin\Release\Srednie_spalanie.exe
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\bin\Release\Srednie_spalanie.pdb
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\bin\Release\itextsharp.dll
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\bin\Release\itextsharp.xmlworker.dll
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\bin\Release\itextsharp.xml
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\obj\Release\Srednie_spalanie.Form1.resources
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\obj\Release\Srednie_spalanie.Form2.resources
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\obj\Release\Srednie_spalanie.Form3.resources
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\obj\Release\Srednie_spalanie.Form4.resources
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\obj\Release\Srednie_spalanie.Properties.Resources.resources
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\obj\Release\Srednie_spalanie.testowy.resources
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\obj\Release\Srednie_spalanie.csproj.GenerateResource.Cache
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\obj\Release\Srednie_spalanie.csproj.CoreCompileInputs.cache
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\obj\Release\Srednie_spalanie.exe
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\obj\Release\Srednie_spalanie.pdb

@@ -20,3 +20,9 @@ C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_sp
 C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\obj\Debug\Srednie_spalanie.csproj.CoreCompileInputs.cache
 C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\obj\Debug\Srednie_spalanie.exe
 C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\obj\Debug\Srednie_spalanie.pdb
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\obj\Debug\Srednie_spalanie.testowy.resources
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\obj\Debug\Srednie_spalanie.Form3.resources
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\obj\Debug\Srednie_spalanie.Form4.resources
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\bin\Debug\itextsharp.dll
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\bin\Debug\itextsharp.xml

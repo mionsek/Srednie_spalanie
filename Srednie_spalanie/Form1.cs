@@ -28,6 +28,7 @@ namespace Srednie_spalanie
 
             InitializeComponent(_liczba_samochodow, _samochody);
             CreateDynamicButtons();
+            CreateInfoButtons();
         }
 
         private void CreateDynamicButtons()
@@ -51,20 +52,53 @@ namespace Srednie_spalanie
                     dynamicButton.Location = new Point(ClientSize.Width / 2 + margin, 70 + (tmp_cnt/2 * height) + margin*(i - 1));
                 }
                 dynamicButton.Text = this._samochody[i].Nr_rej + " - " + this._samochody[i].Nazwa;
-                dynamicButton.Name = "SamochodButton" + i;
+                dynamicButton.Name = i.ToString();
                 dynamicButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F);
                 dynamicButton.UseVisualStyleBackColor = true;
 
-                dynamicButton.Click += new EventHandler(DynamicButton_OnClick);
-                wybrany_samochod = _samochody[i];
+                //dynamicButton.Click += new EventHandler(DynamicButton_OnClick);
+                dynamicButton.Click += (sender, e) => DynamicButton_OnClick(sender, e);
+
 
                 Controls.Add(dynamicButton);
                 tmp_cnt += 1;
             }
         }
+
+        private void CreateInfoButtons()
+        {
+            int height = 37;
+            int width = 110;
+            int margin = 20;
+            Button raportButton = new Button();
+            raportButton.Height = height;
+            raportButton.Width = width;
+            raportButton.Location = new Point(ClientSize.Width - width - margin, ClientSize.Height - height - margin);
+            raportButton.Text = "Raporty";
+            raportButton.Name = "raportButton";
+            raportButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F);
+            raportButton.UseVisualStyleBackColor = true;
+
+            raportButton.Click += new EventHandler(raportButton_OnClick);
+            Controls.Add(raportButton);
+        }
+
         private void DynamicButton_OnClick(object sender, EventArgs e)
         {
-            Form2 myForm = new Form2(wybrany_samochod);
+            Button btn = sender as Button;
+
+            string a = btn.Name;
+            int nr = Int32.Parse(a);
+
+            Form2 myForm = new Form2(_samochody[nr],_liczba_samochodow, _samochody);
+            this.Hide();
+            myForm.ShowDialog();
+            this.Close();
+        }
+
+        private void raportButton_OnClick(object sender, EventArgs e)
+        {
+            Form4 myForm = new Form4();
             this.Hide();
             myForm.ShowDialog();
             this.Close();
