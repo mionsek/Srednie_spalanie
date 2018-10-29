@@ -11,8 +11,9 @@ namespace Srednie_spalanie
     {
         public int liczba_samochodow;
         public Samochod[] samochody;
-        
-        public void zaladuj_auta_XML()
+        public List<string> kierowcy;
+
+        private void zaladujAutaZXML()
         {
             XmlDocument doc = new XmlDocument();
             doc.Load("../../doc/auta.xml");
@@ -47,9 +48,27 @@ namespace Srednie_spalanie
                 }
             }
         }
+
+        private void zaladujKierowcowZXML()
+        {
+            kierowcy = new List<string>();
+            XmlDocument doc = new XmlDocument();
+            doc.Load("../../doc/kierowcy.xml");
+
+            foreach (XmlNode node in doc.DocumentElement)
+            {
+                string name = node.Name;
+                if (name == "kierowca")
+                {
+                    kierowcy.Add(node.InnerText);
+                }
+            }
+        }
+
         public Klasa_opisowa()
         {
-            zaladuj_auta_XML();
+            zaladujAutaZXML();
+            zaladujKierowcowZXML();
         }
 
     }

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <auto>
+    <nazwa>GWE2369</nazwa>
+    <dzien>21</dzien>
+    <kierowca>Hermann Tadeusz</kierowca>
+    <przebieg>13</przebieg>
+    <litry>12</litry>
+  </auto>
+  <auto>
+    <nazwa>GWE2369</nazwa>
+    <dzien>21</dzien>
+    <kierowca>Falkowski Jaroslaw</kierowca>
+    <przebieg>123</przebieg>
+    <litry>2</litry>
+  </auto>
+  <auto>
+    <nazwa>GWE53U6</nazwa>
+    <dzien>21</dzien>
+    <kierowca>Fikus Lukasz</kierowca>
+    <przebieg>12</przebieg>
+    <litry>213</litry>
+  </auto>
+  <auto>
+    <nazwa>GWE2369</nazwa>
+    <dzien>21</dzien>
+    <kierowca>Labudda Adam</kierowca>
+    <przebieg>23</przebieg>
+    <litry>100</litry>
+  </auto>
+</root>

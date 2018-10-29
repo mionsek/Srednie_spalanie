@@ -21,5 +21,20 @@ namespace Srednie_spalanie
         {
 
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+
+        }
     }
 }

@@ -1,9 +1,8 @@
 ﻿using System;
 
-public class Samochod
+public class Samochod : ICloneable
 {
-//    public string Nazwa;
-//   public string Nr_rej;
+
     public Samochod(string nazwa, string nr_rej)
     {
         Nazwa = nazwa;
@@ -28,4 +27,22 @@ public class Samochod
 
     public int Dzien { get; set; }
     public int Przebieg { get; set; }
+    public int IloscLitrowDoStat { get; set; }
+    
+    public object Clone()
+    {
+        return new Samochod();
+    }
+
+    public void Clear()
+    {
+        this.Dzien = 0;
+        this.Kierowca = null;
+        this.Km_przejechane = 0;
+        this.Przebieg = 0;
+        this.Sr_spalanie = 0;
+        this.Nazwa = null;
+        this.StanLicznika = 0;
+        this.Nr_rej = null;
+    }
 }

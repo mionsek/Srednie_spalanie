@@ -14,13 +14,14 @@ namespace Srednie_spalanie
 {
     public partial class Form4 : Form
     {
-        List<Samochod> autoList;
+        List<Samochod> autoList, autoList2;
         string _month;
         string _year;
         public Form4()
         {
             InitializeComponent();
             autoList = new List<Samochod>();
+            autoList2 = new List<Samochod>();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -63,6 +64,7 @@ namespace Srednie_spalanie
                                 tmp_auto.IloscLitrow = Int32.Parse(child.InnerText);
                         }
                         autoList.Add(tmp_auto);
+                        autoList2.Add(tmp_auto);
                     }
                 }
 
@@ -95,38 +97,19 @@ namespace Srednie_spalanie
 
         public void policzSpalanie()
         {
+            /*
             autoList = autoList.OrderBy(Samochod => Samochod.Nazwa).ThenBy(Samochod => Samochod.Przebieg).ThenBy(Samochod => Samochod.Dzien).ToList();
-
-            for(int i = 0; i < autoList.Count - 1; i++)
+            for (int i = 0; i < autoList.Count - 1; i++)
             {
-                if(autoList[i].Nazwa.Equals(autoList[i + 1].Nazwa))
+                if (autoList[i].Nazwa.Equals(autoList[i + 1].Nazwa))
                 {
                     autoList[i].Km_przejechane = autoList[i + 1].Przebieg - autoList[i].Przebieg;
                     autoList[i].Sr_spalanie = (Convert.ToDouble(autoList[i].IloscLitrow) / Convert.ToDouble(autoList[i].Km_przejechane)) * 100.0;
                 }
             }
+            */
 
-            autoList = autoList.OrderBy(Samochod => Samochod.Nazwa).ThenBy(Samochod => Samochod.Kierowca).ToList();
-
-            for (int i = 0; i < autoList.Count - 1; i++)
-            {
-                if (autoList[i].Kierowca.Equals(autoList[i+1].Kierowca) && autoList[i].Nazwa.Equals(autoList[i + 1].Nazwa))
-                {
-                    if (autoList[i + 1].Km_przejechane > 0)
-                    {
-                        autoList[i].IloscLitrow += autoList[i + 1].IloscLitrow;
-                        autoList[i].Km_przejechane += autoList[i + 1].Km_przejechane;
-                        autoList.RemoveAt(i + 1);
-                        i -= 1;
-                    }
-                }
-                else
-                {   // srednie spalanie z kilku tras
-                    autoList[i].Sr_spalanie = (Convert.ToDouble(autoList[i].IloscLitrow) / Convert.ToDouble(autoList[i].Km_przejechane)) * 100.0;
-                }
-            }
-            
-            CreatePDF pdf = new CreatePDF(autoList, _month, _year);
+            CreatePDF pdf = new CreatePDF(autoList, autoList2, _month, _year);
         }
     }
 }

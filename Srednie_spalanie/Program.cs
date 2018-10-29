@@ -19,7 +19,7 @@ namespace Srednie_spalanie
             Klasa_opisowa klasa_Opisowa = new Klasa_opisowa();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1(klasa_Opisowa.liczba_samochodow, klasa_Opisowa.samochody));
+            Application.Run(new Form1(klasa_Opisowa.liczba_samochodow, klasa_Opisowa.samochody, klasa_Opisowa.kierowcy));
         }
     }
 }

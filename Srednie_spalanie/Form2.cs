@@ -90,10 +90,12 @@ namespace Srednie_spalanie
 
         private void wsteczButton_OnClick(object sender, EventArgs e)
         {
+            /*
             Form1 myForm = new Form1(_liczba_samochodow, _samochody);
             this.Hide();
             myForm.ShowDialog();
             this.Close();
+            */
         }
 
         private void opcjeButton_OnClick(object sender, EventArgs e)

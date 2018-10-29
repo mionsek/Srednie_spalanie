@@ -14,3 +14,4 @@ C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_sp
 C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\obj\Release\Srednie_spalanie.csproj.CoreCompileInputs.cache
 C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\obj\Release\Srednie_spalanie.exe
 C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\obj\Release\Srednie_spalanie.pdb
+C:\Users\Dawid\documents\visual studio 2017\Projects\Srednie_spalanie\Srednie_spalanie\obj\Release\Srednie_spalanie.csprojResolveAssemblyReference.cache
